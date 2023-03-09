@@ -1,4 +1,31 @@
 ﻿<Properties StartupConfiguration="{389E176D-162B-44D6-AFB9-744DF6B8471E}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="VoteLogger/Program.cs">
+    <Files>
+      <File FileName="VoteLogger/Program.cs" Line="47" Column="1" />
+      <File FileName="VoteLogger/databaseAccess/dataAccess.cs" Line="24" Column="3" />
+      <File FileName="VoteLogger/Model/voterModel.cs" Line="17" Column="2" />
+      <File FileName=".gitignore" Line="198" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VoteLogger" expanded="True">
+            <Node name="VoteLogger" expanded="True">
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="databaseAccess" expanded="True" />
+              <Node name="Model" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.VoteLogger FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.VoteLogger PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
