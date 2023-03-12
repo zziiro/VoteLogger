@@ -9,7 +9,7 @@ namespace VoteLogger.databaseAccess;
 public class DataAccess
 {
 
-	const string connectionString = "mongodb+srv://cb:cebiros@voterinformation.5tdqgqr.mongodb.net/?retryWrites=true&w=majority";
+	const string connectionString = "";
 	const string databaseName = "VoterInformation";
 	const string candidateCollection = "Candidates";
 	const string votersCollection = "Voters";
