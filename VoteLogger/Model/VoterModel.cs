@@ -8,11 +8,11 @@ public class VoterModel
     [BsonId]
     [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
 
-    public string? ID { get; set; }
-    public string? FullName { get; set; }
-    public string? Age { get; set; }
-    public string? State { get; set; }
-    public string? Vote { get; set; }
+    public string? Id { get; set; }
+    public string FullName { get; set; } = "FullName -  test placeholder";
+    public string Age { get; set; } = "Age - test placeholder";
+    public string State { get; set; } = "State - test placeholder";
+    public string Vote { get; set; } = "Vote - test placeholder";
 
 }
 

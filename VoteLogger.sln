@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1704.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoteLogger", "VoteLogger\VoteLogger.csproj", "{389E176D-162B-44D6-AFB9-744DF6B8471E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoteLoggerTests", "VoteLoggerTests\VoteLoggerTests.csproj", "{09FABC46-EF88-4B5B-B08D-28E21E283B18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{389E176D-162B-44D6-AFB9-744DF6B8471E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{389E176D-162B-44D6-AFB9-744DF6B8471E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{389E176D-162B-44D6-AFB9-744DF6B8471E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FABC46-EF88-4B5B-B08D-28E21E283B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FABC46-EF88-4B5B-B08D-28E21E283B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FABC46-EF88-4B5B-B08D-28E21E283B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FABC46-EF88-4B5B-B08D-28E21E283B18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

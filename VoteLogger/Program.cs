@@ -14,35 +14,29 @@ class Program {
 
     public static void VoterInformation()
     {
-        string? fullName;
-        string? age;
-        string? state;
-        string? vote;
-
         DataAccess data = new();
 
         Console.WriteLine("Full Name: ");
-        fullName = Console.ReadLine();
+        string? fullName = Console.ReadLine();
 
         Console.WriteLine("Age: ");
-        age = Console.ReadLine();
+        string? age = Console.ReadLine();
 
         Console.WriteLine("State: ");
-        state = Console.ReadLine();
+        string? state = Console.ReadLine();
 
         Console.WriteLine("Vote: ");
         data.SeeAllCandidates();
-        vote = Console.ReadLine();
+        string? vote = Console.ReadLine();
 
-        VoterModel voterInformation = new();
-
-        // set input equal to the voter model
-        voterInformation.FullName = fullName;
-        voterInformation.Age = age;
-        voterInformation.State = state;
-        voterInformation.Vote = vote;
-
-
+        VoterModel voterInformation = new()
+        {
+            FullName = fullName,
+            Age = age,
+            State = state,
+            Vote = vote,
+        };
+        
         // create dataAccess object
         DataAccess dbAccess = new();
 
@@ -75,11 +69,11 @@ class Program {
         politicalParty = Console.ReadLine();
 
         DataAccess dataAccess = new();
-        CandidateModel candidateModel = new();
-
-        candidateModel.FullName = fullName;
-        candidateModel.StateOfRepresentation = stateofRepresentation;
-        candidateModel.PoliticalParty = politicalParty;
+        CandidateModel candidateModel = new() {
+            FullName = fullName,
+            StateOfRepresentation = stateofRepresentation,
+            PoliticalParty = politicalParty,
+        };
 
         dataAccess.AddCandidates(candidateModel);
     }
